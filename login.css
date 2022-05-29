@@ -1,0 +1,73 @@
+body{
+    font-family: 'Merriweather', serif;
+    color:seashell;
+    background-image: url(images/login_singup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;   
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+h1{
+      text-align: center;
+      font-family: 'Kalam', cursive;
+      font-size: 40px;
+      padding-top: 20px;
+  }
+
+  label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:seashell; 
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 10px; 
+}
+
+.signup a:link{ 
+    color:fuchsia;
+}
+.signup a:visited{
+    color: turquoise;
+}
+.signup a:hover{
+    color: orangered;
+}
+
+p.signup{
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+}
+
+footer{
+    text-align: right;
+    font-family: 'Kalam', cursive;
+    margin-top: 200px;
+    margin-right: 10px;
+}
+  
+
+
+
+

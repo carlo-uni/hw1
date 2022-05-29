@@ -1,0 +1,98 @@
+body{
+    font-family: 'Merriweather', serif;
+    color:seashell;
+    background-image: url(images/login_singup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;   
+    margin: 0;
+}
+
+h1{
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.form{
+    display: flex;
+    margin-left: 10px;
+}
+
+span{
+    margin-left: 323px;
+}
+
+section p{
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:seashell; 
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 10px; 
+}
+
+input[type=file] { 
+    cursor:pointer;
+    border: 1px solid seashell;
+    border-radius: 15px; 
+    margin-left: 10px;
+}
+footer{
+    text-align: right;
+    font-family: 'Kalam', cursive;
+    margin-right: 10px;
+}
+
+a:link{
+    color: fuchsia;
+}
+
+a:visited{
+    color: turquoise;
+}
+
+a:hover{
+    color: orangered;
+}
+  
+#subtitle{
+    text-align: center;
+    font-size: large;
+}
+
+@media (max-width: 1062px){
+    section p{
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 465px){
+    span{
+        margin-left: 210px;
+    }
+
+}
+

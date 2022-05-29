@@ -1,0 +1,149 @@
+#visualizza_risultati{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#visualizza_risultati img{
+  margin: 3px;
+  border: 2px solid gold;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  cursor:pointer;
+  width: 223px;
+  height: 310px;
+}
+
+nav img {
+  height: 45px;
+  width: 45px;
+}
+
+#modal_view{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(0,0,0,0.9);
+  z-index: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#modal_view.hidden{
+  display:none;
+}
+
+.hidden{
+  display:none;
+}
+
+#modal_view img{
+  height: 450px;
+  width: 320px;
+  margin-right: 150px;
+}
+
+form textarea{
+  width: 500px;
+  height: 200px;
+}
+
+body {
+  margin: 0;
+  background-image: url(images/spazio.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center; 
+  position: relative;  
+}
+
+h1{
+  color: seashell;
+  font-family: 'Kalam', cursive;
+  font-size: 50px;
+  margin: 0;
+ }
+
+ main #struttura_ricerca{
+   margin-top: 50px;
+   margin: 10px;
+   /* color: rebeccapurple; */
+ }
+
+#struttura_ricerca h1{
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  background-color: rgb(0,0,0,0.4);
+}
+
+.form{
+  display: flex;
+  margin-top: 30px;
+  border: 2px solid rgb(0,0,0,0.4);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h3{
+  color: aliceblue;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Merriweather', serif;
+  color: darkblue;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+}
+
+input[type=submit] {
+  padding:5px 15px; 
+  background:seashell;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 10px; 
+}
+
+@media (max-width: 1062px){
+  nav h1{
+      display:none;
+  }
+}
+
+@media (max-width: 1000px){
+  form textarea{
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+  }
+
+  #modal_view img{
+    height: 360px;
+    width: 260px;
+    margin: 0px;
+  }
+
+  #modal_view{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
